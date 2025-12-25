@@ -400,6 +400,81 @@
       font-size: 2.2rem;
     }
   }
+
+  /* education */
+  .education {
+    padding: 60px 10%;
+    background: #0f172a;
+    color: #e5e7eb;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #38bdf8;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .education-item {
+    background: #020617;
+    border-left: 4px solid #38bdf8;
+    padding: 20px 25px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.15);
+  }
+  
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .edu-header h3 {
+    font-size: 1.2rem;
+    color: #f8fafc;
+  }
+  
+  .edu-header span {
+    font-size: 0.95rem;
+    color: #94a3b8;
+  }
+  
+  .edu-degree {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #cbd5f5;
+  }
+  
+  .edu-score {
+    margin-top: 5px;
+    font-size: 0.95rem;
+    color: #a5b4fc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .education {
+      padding: 50px 6%;
+    }
+  
+    .edu-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+    }
+  }
   
   /* CONTACT */
   .contact form {
